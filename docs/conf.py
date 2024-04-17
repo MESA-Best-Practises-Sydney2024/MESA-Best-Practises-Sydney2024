@@ -32,7 +32,7 @@ templates_path = ['_templates']
 html_theme = 'sphinx_rtd_theme'
 
 # Set logo
-html_logo = 'RG_transparent.png'
+# html_logo = 'RG_transparent.png'
 
 # -- Options for EPUB output
 epub_show_urls = 'footnote'
