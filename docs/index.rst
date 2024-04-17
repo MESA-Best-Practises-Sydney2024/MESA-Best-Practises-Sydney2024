@@ -2,7 +2,7 @@
 MESA Best Practises 
 ###############################
 
-MESA labs for day 3 of the `MESA Down Under <https://maygpedersen.github.io/mesa-down-under-2024/>`__ 2024 School, Sydney, Australia.
+MESA microlabs for the morning session of Day 3 of the `MESA Down Under <https://maygpedersen.github.io/mesa-down-under-2024/>`__ 2024 School, Sydney, Australia.
 
 .. warning::
 
