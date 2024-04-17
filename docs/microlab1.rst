@@ -8,14 +8,15 @@ In the ``&star_job`` section of ``inlist_1.5M_with_diffusion``, add
 .. code-block:: console
 
     write_profile_when_terminate = .true. 
-    filename_for_profile_when_terminate = 'LOGS/mdcX_tdcY_nomaxdt/profile_Xc010.data'
+    filename_for_profile_when_terminate = 'LOGS/mdcX_tdcY_nomaxdt/profile_mdcX_tdcY_nomaxdt_Xc010.data'
 
 
 In the ``&controls`` section of ``inlist_1.5M_with_diffusion``, add
 
 .. code-block:: console
 
-    log_directory = ‘LOGS/mdcX_tdcY_nomaxdt’ set_min_D_mix = .true. 
+    log_directory = ‘LOGS/mdcX_tdcY_nomaxdt’ 
+    set_min_D_mix = .true. 
     min_D_mix =1d2 time_delta_coeff = Y 
     xa_central_lower_limit_species(1) = 'h1' 
     xa_central_lower_limit(1) = 0.1 
