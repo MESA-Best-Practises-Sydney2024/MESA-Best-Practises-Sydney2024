@@ -11,14 +11,7 @@ MESA labs for day 3 of the `MESA Down Under <https://mesahub.github.io/summer-sc
 
 .. admonition:: Solutions
 
-    The solutions to the labs can be found here. Click on the button "Download raw file" on the right next to the "Raw" and copy buttons.
-
-    `Microlab 1 <https://github.com/mesa-summer-school-2023/mesa-school-bugnet/blob/main/work_directories/work_mini1_solution.zip>`__
-
-    `Microlab 2 <https://github.com/mesa-summer-school-2023/mesa-school-bugnet/blob/main/work_directories/work_mini2_solution.zip>`__
-
-    `Microlab 3 <https://github.com/mesa-summer-school-2023/mesa-school-bugnet/blob/main/work_directories/work_maxi_solution.zip>`__
-
+    The solutions to the labs can be found here. 
 
 
 
