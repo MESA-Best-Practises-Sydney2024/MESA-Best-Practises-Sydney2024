@@ -1,7 +1,7 @@
 Microlab 2: Verifying hydrostatic equilibrium
 ===================================
 
-We continue in the same work directory as Microlab 1. Copy the contents of ``run_star_extras.f90`` to ``src/run_star_extras.f90`` in your work directory.
+We continue in the same work directory as Microlab 1. Copy the contents of ``star/job/standard_run_star_extras.inc`` into ``src/run_star_extras.f90`` in your work directory.
 
 .. tip::
 
