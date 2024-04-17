@@ -8,6 +8,7 @@ We continue in the same work directory as Microlab 1. Copy the contents of ``run
     You can use ``shmesa extras`` to fill in the ``run_star_extras.f90`` template.
 
 In the subroutine ``data_for_extra_history_columns``, compute the maximum of the following residuals
+
 .. math::
 
   1 - \max \left| \frac{\left( \frac{\partial P} {\partial m} \right) }{\left( \frac{Gm} {4 \pi r^4} \right)}  \right| 
