@@ -37,4 +37,4 @@ In ``&controls`` of ``inlist_to_start_he_flash change`` change 
 
     max_model_number = 500 
 
-Run a model and compare the result with your table. 
+Run a model, plot ``log_Teff`` vs. ``log_L``, and compare the result with your table.  What is the impact of the opacity on the evolution track?
