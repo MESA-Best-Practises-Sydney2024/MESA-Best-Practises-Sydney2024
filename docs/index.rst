@@ -21,4 +21,5 @@ Contents
    microlab1
    microlab2
    microlab3
+   solutions
 
