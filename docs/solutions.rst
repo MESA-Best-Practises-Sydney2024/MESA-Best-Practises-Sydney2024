@@ -29,7 +29,8 @@ Solution Microlab 2
          allocate(residuals(s% nz))
          do k = 2, s% nz
              ! |(dP/dm) / ((G m) / (4 Pi r^4))|
-             residuals(k) = abs(((s% Peos(k-1) - s% Peos(k)) / ((s% dm(k-1) + s% dm(k)) / 2.0_dp)) / (standard_cgrav * s% m(k) / (4.0_dp * pi* pow4(s% r(k)))))
+             residuals(k) = abs(((s% Peos(k-1) - s% Peos(k)) / ((s% dm(k-1) + s% dm(k)) / 2.0_dp)) /&
+             (standard_cgrav * s% m(k) / (4.0_dp * pi* pow4(s% r(k)))))
          end do
          max_residuals = 1._dp - MAXVAL(residuals)
          names(1) = 'max_residuals'
