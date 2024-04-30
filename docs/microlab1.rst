@@ -26,9 +26,9 @@ and change
 
 .. code-block:: console
 
-    D_mix_ignore_diffusion = 1d10 ! Don't do diffusion where Dmix > 10^10 cm^/s.
-    mesh_delta_coeff = X 
-    max_years_for_timestep = 0    ! no maximum
+    D_mix_ignore_diffusion = 1d10 ! Don't do diffusion where Dmix > 10^10 cm^/s.
+    mesh_delta_coeff = X
+    max_years_for_timestep = 0    ! no maximum
     max_model_number = -1         ! no maximum
 
 
