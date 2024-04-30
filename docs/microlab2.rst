@@ -7,7 +7,7 @@ We continue in the same work directory as Microlab 1. Copy the contents of ``sta
 
     You can use ``shmesa extras`` to fill in the ``run_star_extras.f90`` template.
 
-In the subroutine ``data_for_extra_history_columns``, compute the maximum of the following residuals
+In the subroutine ``data_for_extra_history_columns``, compute the following maximum residuals
 
 .. math::
 
