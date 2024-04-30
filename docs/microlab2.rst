@@ -23,7 +23,7 @@ In the ``&controls`` section of ``inlist_1.5M_with_diffusion`` add
 
 .. code-block:: console
 
-    trace_history_value_name(3) = ‘max_residuals’
+    trace_history_value_name(3) = 'max_residuals'
 
 Run the model. To what precision is hydrostatic equilibrium satisfied?
 
