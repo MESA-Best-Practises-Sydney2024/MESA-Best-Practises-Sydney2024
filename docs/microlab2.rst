@@ -11,13 +11,13 @@ In the subroutine ``data_for_extra_history_columns``, compute the following maxi
 
 .. math::
 
-  1 - \max \left| \frac{\left( \frac{\partial P} {\partial m} \right) }{\left( \frac{Gm} {4 \pi r^4} \right)}  \right| 
+  \max \frac{\left| \left( \frac{\partial P} {\partial m} \right) - \left( \frac{Gm} {4 \pi r^4} \right)  \right|}{\max \left (\left|  \frac{\partial P} {\partial m}  \right|, \left|  \frac{Gm} {4 \pi r^4}   \right| \right)} 
 
 Save these into a new history column named ``max_residuals``. (Do not forget the update ``how_many_extra_history_columns``.) Think about which quantities are defined on cells and which on faces.
 
 .. tip::
 
-    Some useful functions are ``ABS()``, ``MAXVAL()`` and ``pow4()``.
+    Some useful functions are ``ABS(array)``,``MAX(x1,x2)`` ``MAXVAL(array)`` and ``pow4(x)``.
 
 In the ``&controls`` section of ``inlist_1.5M_with_diffusion`` add 
 
