@@ -37,9 +37,11 @@ Each person at a table select a different value for ``mesh_delta_coeff`` between
 Run the model. Afterwards, plot (with `MESA Explorer <https://billwolf.space/mesa-explorer/>`__) the following quantities. (The files are in the ``LOGS`` directory.)
 
 For the effect of ``mesh_delta_coeff``:
+
 1. ``radius`` vs. ``brunt_N2`` (profile) and 2. ``center_h1`` vs. ``mass_conv_core`` (history) 
 
 For the effect of ``time_delta_coeff``:
+
 1. ``log_Teff`` vs. ``log_L`` (history) and 2. ``center_h1`` vs. ``surface_mg24`` (history) 
  
 How are these quantities affected? What resolution would be sufficient? 
