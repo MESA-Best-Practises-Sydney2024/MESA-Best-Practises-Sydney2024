@@ -28,7 +28,7 @@ In ``&controls`` add
 
 .. code-block:: console
 
-    log_directory = ‘<your_mixture>’
+    log_directory = '<your_mixture>'
 
 In ``&controls`` of ``inlist_to_start_he_flash change`` change 
 
