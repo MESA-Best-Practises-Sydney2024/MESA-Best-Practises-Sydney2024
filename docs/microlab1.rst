@@ -31,7 +31,7 @@ and change
     max_years_for_timestep = 0 
     max_model_number = -1
 
-Select a value for ``mesh_delta_coeff`` between 0.2 and 2.0, or a value for ``time_delta_coeff`` between 0.05 and 2.0. Set the other one equal to 0.5.
+Each person at a table select a different value for ``mesh_delta_coeff`` between 0.2 and 2.0 (even table number), or a value for ``time_delta_coeff`` between 0.05 and 2.0 (odd table number). Set the other one equal to 0.5.
 
 Run the model. Afterwards, plot (with `MESA Explorer <https://billwolf.space/mesa-explorer/>`__) the quantities ``radius`` vs. ``brunt_N2`` (profile) and ``center_h1`` vs. ``conv_core_mass`` (history) for the effect of ``mesh_delta_coeff``, or 
 ``log_Teff`` vs. ``log_L`` (history) and ``center_h1`` vs. ``surface_mg24`` (history) for the effect of ``time_delta_coeff``. 
