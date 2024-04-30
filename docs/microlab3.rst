@@ -12,13 +12,15 @@ In ``&kap`` of ``inlist_start``, ``inlist_to_end_core_h_burn`` and ``inlist_to_s
 
 
 
-to a specific mixture. 
+to a specific mixture. Distribute the different options amongst your table, but use the same mixture for ``kap_file_premix`` and ``kap_lowT_prefix``.
 
 In ``&star_job`` of ``inlist_start`` add 
 
 .. code-block:: console
 
     initial_zfracs = … ! 2 = GN93, 3 = GS98, 6 = A09 
+
+using the corresponding mixture.
 
 .. tip::
 
