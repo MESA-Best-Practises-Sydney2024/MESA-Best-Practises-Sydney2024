@@ -32,7 +32,7 @@ Solution Microlab 2
              ! |(dP/dm) / ((G m) / (4 Pi r^4))|
              lhs = (s% Peos(k-1) - s% Peos(k)) / ((s% dm(k-1) + s% dm(k)) / 2.0_dp)
              rhs = standard_cgrav * s% m(k) / (4.0_dp * pi* pow4(s% r(k)))
-             residuals(k) =  abs(lhs-rhs)/lhs
+             residuals(k) =  abs(lhs-rhs)/abs(lhs)
              
          end do
          max_residuals = MAXVAL(residuals)
