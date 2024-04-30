@@ -15,7 +15,7 @@ In the ``&controls`` section of ``inlist_1.5M_with_diffusion``, add
 
 .. code-block:: console
 
-    log_directory = ‘LOGS/mdcX_tdcY_nomaxdt’ 
+    log_directory = 'LOGS/mdcX_tdcY_nomaxdt'
     set_min_D_mix = .true. 
     min_D_mix = 1d2 
     time_delta_coeff = Y 
