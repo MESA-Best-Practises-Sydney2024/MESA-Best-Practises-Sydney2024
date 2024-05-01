@@ -13,7 +13,7 @@ In the subroutine ``data_for_extra_history_columns``, compute the following maxi
 
   \max \left( \frac{\left| \frac{\partial P} {\partial m} \right| - \left| \frac{Gm} {4 \pi r^4} \right| }{\left|  \frac{\partial P} {\partial m}  \right|} \right) 
 
-Save these into a new history column named ``max_residuals``. (Do not forget the update ``how_many_extra_history_columns``.) Think about which quantities are defined on cells and which on faces.
+Save these into a new history column named ``max_residuals``. (Do not forget to update ``how_many_extra_history_columns``.) Think about which quantities are defined on cells and which on faces.
 
 .. tip::
 
