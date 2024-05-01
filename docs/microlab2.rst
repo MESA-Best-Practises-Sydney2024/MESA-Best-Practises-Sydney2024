@@ -19,7 +19,13 @@ Save these into a new history column named ``max_residuals``. (Do not forget to 
 
     Some useful functions are ``ABS(array)``, ``MAXVAL(array)`` and ``pow4(x)``.
 
-In the ``&controls`` section of ``inlist_1.5M_with_diffusion`` add 
+In the ``&controls`` section of ``inlist_1.5M_with_diffusion`` change 
+
+.. code-block:: console
+
+    num_trace_history_values = 3
+
+and add
 
 .. code-block:: console
 
