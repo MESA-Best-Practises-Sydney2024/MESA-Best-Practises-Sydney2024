@@ -13,7 +13,7 @@ In the subroutine ``data_for_extra_history_columns``, compute the following maxi
 
   \max \left( \frac{\left| \frac{\partial P} {\partial m} \right| - \left| \frac{Gm} {4 \pi r^4} \right| }{\left|  \frac{\partial P} {\partial m}  \right|} \right) 
 
-
+You will have to do a loop over all nz-1 cells. Because we compute differences between two cells for the derivative of the pressure, we are left with one cell fewer, i.e. nz-1 cells.
 Save these into a new history column named ``max_residuals``. (Do not forget to update ``how_many_extra_history_columns``.) Think about which quantities are defined on cells and which on faces.
 
 .. tip::
