@@ -52,4 +52,4 @@ In the ``&controls`` section of ``inlist_to_start_he_flash change`` change 
 
     max_model_number = 500 
 
-Run a model by ``./run_all``, plot ``log_Teff`` vs. ``log_L``, and compare the result with your table. Compare for example the highest effective temperature reached. What is the impact of the opacity on the evolution track?
+Run a model by ``./run_all``, plot ``log_Teff`` vs. ``log_L``, and compare the result with your table. The history file will be in ``LOGS``. Compare for example the highest effective temperature reached. What is the impact of the opacity on the evolution track?
