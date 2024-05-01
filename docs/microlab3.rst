@@ -33,7 +33,7 @@ In the ``&kap`` section of ``inlist_start``, ``inlist_to_end_core_h_burn`` and `
 
 to a specific mixture. Distribute the different options amongst your table, but use the same mixture for ``kap_file_premix`` and ``kap_lowT_prefix``.
 
-In ``&star_job`` of ``inlist_start`` add 
+In the ``&star_job`` section of ``inlist_start`` add 
 
 .. code-block:: console
 
@@ -50,6 +50,6 @@ In the ``&controls`` section of ``inlist_to_start_he_flash change`` change 
 
 .. code-block:: console
 
-    max_model_number = 500 
+    max_model_number = 400 
 
 Run a model by ``./run_all``, plot ``log_Teff`` vs. ``log_L``, and compare the result with your table. The history file will be in ``LOGS``. Compare for example the highest effective temperature reached. What is the impact of the opacity on the evolution track?
