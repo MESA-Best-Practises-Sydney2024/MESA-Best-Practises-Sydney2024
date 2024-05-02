@@ -22,13 +22,13 @@ Finally, make this file executable with
 
     chmod +x run_all
 
-In the ``&kap`` section of ``inlist_start``, ``inlist_to_end_core_h_burn`` and ``inlist_to_start_he_flash`` change
+In the ``&kap`` section of ``inlist_start``, ``inlist_to_end_core_h_burn`` and ``inlist_to_start_he_core_flash`` change
 
 .. code-block:: console
 
     kap_file_prefix = ''     ! Either gn93, gs98, a09, OP_gs98, or OP_a09_nans_removed_by_hand
     kap_lowT_prefix = ''     ! Either lowT_fa05_gn93, lowT_fa05_gs98, or lowT_fa05_a09p
-
+    kap_CO_prefix   = ''     ! Either gn93_co, gs98_co, or a09_co
 
 
 to a specific mixture. Distribute the different options amongst your table, but use the same mixture for ``kap_file_prefix`` and ``kap_lowT_prefix``.
@@ -46,7 +46,7 @@ using the corresponding mixture.
     Full article references can be found in ``$MESA_DIR/chem/public/chem_def.f90``.
 
 
-In the ``&controls`` section of ``inlist_to_start_he_flash change`` change 
+In the ``&controls`` section of ``inlist_to_start_he_core_flash`` change 
 
 .. code-block:: console
 
