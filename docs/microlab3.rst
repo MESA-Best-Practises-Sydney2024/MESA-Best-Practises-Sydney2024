@@ -5,7 +5,7 @@ Copy the test suite ``$MESA_DIR/star/test_suite/1M_pre_ms_to_wd`` somewhere outs
 
 .. code-block:: console
 
-    cp $MESA_DIR/star/test_suite/r*_nomodfiles .
+    cp $MESA_DIR/star/test_suite/20M_pre_ms_to_core_collapse/r*_nomodfiles .
 
 This test suite runs multiple inlists consecutively and these files will allow us to restart from a photo instead of a ``.mod`` file when running the next inlist.
 Create a new file ``nano run_all`` (or any other text editor) and copy into it the following
