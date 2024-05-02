@@ -31,7 +31,7 @@ In the ``&kap`` section of ``inlist_start``, ``inlist_to_end_core_h_burn`` and `
     kap_CO_prefix   = ''     ! Either gn93_co, gs98_co, or a09_co
 
 
-to a specific mixture. Distribute the different options amongst your table, but use the same mixture for ``kap_file_prefix`` and ``kap_lowT_prefix``.
+to a specific mixture. Distribute the different options amongst your table, but use the same mixture for all three controls.
 
 In the ``&star_job`` section of ``inlist_start`` add 
 
