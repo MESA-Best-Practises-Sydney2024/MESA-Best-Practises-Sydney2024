@@ -31,7 +31,7 @@ In the ``&kap`` section of ``inlist_start``, ``inlist_to_end_core_h_burn`` and `
 
 
 
-to a specific mixture. Distribute the different options amongst your table, but use the same mixture for ``kap_file_premix`` and ``kap_lowT_prefix``.
+to a specific mixture. Distribute the different options amongst your table, but use the same mixture for ``kap_file_prefix`` and ``kap_lowT_prefix``.
 
 In the ``&star_job`` section of ``inlist_start`` add 
 
