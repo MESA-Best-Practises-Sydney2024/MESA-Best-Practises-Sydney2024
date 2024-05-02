@@ -26,7 +26,7 @@ In the ``&kap`` section of ``inlist_start``, ``inlist_to_end_core_h_burn`` and `
 
 .. code-block:: console
 
-    kap_file_premix = ''     ! Either gn93, gs98, a09, OP_gs98, or OP_a09_nans_removed_by_hand
+    kap_file_prefix = ''     ! Either gn93, gs98, a09, OP_gs98, or OP_a09_nans_removed_by_hand
     kap_lowT_prefix = ''     ! Either lowT_fa05_gn93, lowT_fa05_gs98, or lowT_fa05_a09p
 
 
