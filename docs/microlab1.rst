@@ -32,6 +32,11 @@ and change
     max_years_for_timestep = 0    ! no maximum
     max_model_number = -1         ! no maximum
 
+In the ``history_columns.list``, add
+
+.. code-block:: console
+
+    surface mg24
 
 Each person at a table select a different value for ``mesh_delta_coeff`` between 0.2 and 2.0 (even table number), or a value for ``time_delta_coeff`` between 0.05 and 2.0 (odd table number). Set the other one equal to 0.5.
 
