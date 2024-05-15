@@ -14,6 +14,7 @@ In the ``&star_job`` section of ``inlist_1.5M_with_diffusion``, add
 In the ``&controls`` section of ``inlist_1.5M_with_diffusion``, add
 
 .. code-block:: console
+
     star_history_name = 'history_mdcX_tdcY_nomaxdt.data'
     log_directory = 'LOGS/mdcX_tdcY_nomaxdt'
     set_min_D_mix = .true.
