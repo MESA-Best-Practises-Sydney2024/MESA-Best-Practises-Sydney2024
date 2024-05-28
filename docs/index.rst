@@ -12,6 +12,7 @@ This lecture is based on the MESA best practises discussed in the `MESA docs <ht
 
 
 Lecturer: Joey Mombarg
+Lab tester: Annachiara Picco
 
 
 Contents
