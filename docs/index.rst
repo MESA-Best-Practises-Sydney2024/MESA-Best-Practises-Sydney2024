@@ -1,9 +1,9 @@
 ###############################
-MESA Best Practises 
+MESA Best Practices 
 ###############################
 
 MESA microlabs for the morning session of Day 3 of the `MESA Down Under <https://maygpedersen.github.io/mesa-down-under-2024/>`__ 2024 School, Sydney, Australia.
-This lecture is based on the MESA best practises discussed in the `MESA docs <https://docs.mesastar.org/en/latest/using_mesa/best_practices.html>`__.
+This lecture is based on the MESA best practices discussed in the `MESA docs <https://docs.mesastar.org/en/latest/using_mesa/best_practices.html>`__.
 
 .. warning::
 
