@@ -31,7 +31,7 @@ In the ``&kap`` section of ``inlist_start``, ``inlist_to_end_core_h_burn`` and `
     kap_CO_prefix   = ''     ! Either gn93_co, gs98_co, or a09_co
 
 
-to a specific mixture. Distribute the different options amongst your table, but use the same mixture for all three controls.
+to a specific mixture (i.e. the relative abundances of metals). Distribute the different options amongst your table, but use the same mixture for all three controls.
 
 In the ``&star_job`` section of ``inlist_start`` add 
 
@@ -52,7 +52,7 @@ In the ``&controls`` section of ``inlist_to_start_he_core_flash`` change 
 
     max_model_number = 400 
 
-Run a model by ``./run_all``, plot ``log_Teff`` vs. ``log_L``, and compare the result with your table. The history file will be in ``LOGS``. Give the history file a more appropriate name.
+Compile and run a model by ``./run_all``, plot ``log_Teff`` vs. ``log_L`` with `MESA Explorer <https://billwolf.space/mesa-explorer/>`__, and compare the result with your table. The history file will be in ``LOGS``. Give the history file a more appropriate name.
 
 .. code-block:: console
 
