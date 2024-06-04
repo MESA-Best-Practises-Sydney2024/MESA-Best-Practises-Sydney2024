@@ -17,7 +17,7 @@ You will have to do a loop over all nz-1 cells. Because we compute differences b
 
 .. tip::
 
-    Some useful functions are ``ABS()``, ``MAXVAL()`` and ``pow4()``. Constants :math:`G` and :math:`pi` are already defined as ``standard_cgrav`` and ``pi``, respectively.
+    Some useful functions are ``ABS()``, ``MAXVAL()`` and ``pow4()``. Constants :math:`G` and :math:`\pi` are already defined as ``standard_cgrav`` and ``pi``, respectively.
 
 Start from the code snippet below and complete the missing parts. Save the max residuals into a new history column named ``max_residuals``. (Do not forget to update ``how_many_extra_history_columns``.) Think about which quantities are defined on cells and which on faces.   
 
