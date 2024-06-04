@@ -58,12 +58,12 @@ Start from the code snippet below and complete the missing parts. Save the max r
          end do
 
          max_residuals = ...
-         ! Store max_residuals in a new history column. 
+         ! Add code here to store max_residuals in a new history column. 
 
 
       end subroutine data_for_extra_history_columns
 
-
+See the solutions tab, if you are really stuck.
 
 In the ``&controls`` section of ``inlist_1.5M_with_diffusion`` change 
 
