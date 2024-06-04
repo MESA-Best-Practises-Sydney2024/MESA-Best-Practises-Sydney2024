@@ -41,7 +41,7 @@ In the ``history_columns.list``, add
 
     surface mg24
 
-Run the model. Afterwards, plot (with `MESA Explorer <https://billwolf.space/mesa-explorer/>`__) the following quantities. (The files are in the ``LOGS`` directory.)
+Compile and run the model. Afterwards, plot (with `MESA Explorer <https://billwolf.space/mesa-explorer/>`__) the following quantities. (The files are in the ``LOGS`` directory.)
 
 For the effect of ``mesh_delta_coeff``:
 
