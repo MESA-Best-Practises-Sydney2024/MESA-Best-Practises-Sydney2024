@@ -77,7 +77,7 @@ and add
 
     trace_history_value_name(3) = 'max_residuals'
 
-Recompile and run the model. To what precision is hydrostatic equilibrium satisfied?
+Recompile and run the model. To what precision is hydrostatic equilibrium satisfied? (The trace history files will appear after the ZAMS.)
 
 
 
