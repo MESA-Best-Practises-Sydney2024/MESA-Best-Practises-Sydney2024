@@ -23,16 +23,6 @@ Start from the code snippet below and complete the missing parts. Save the max r
 
 .. code-block:: console
 
-      integer function how_many_extra_history_columns(id)
-         integer, intent(in) :: id
-         integer :: ierr
-         type (star_info), pointer :: s
-         ierr = 0
-         call star_ptr(id, s, ierr)
-         if (ierr /= 0) return
-         how_many_extra_history_columns = 1
-      end function how_many_extra_history_columns
-
       subroutine data_for_extra_history_columns(id, n, names, vals, ierr)
          integer, intent(in) :: id, n
          character (len=maxlen_history_column_name) :: names(n)
