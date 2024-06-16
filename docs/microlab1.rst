@@ -17,13 +17,17 @@ In the ``&controls`` section of ``inlist_1.5M_with_diffusion``, add
 
     star_history_name = 'history_mdcX_tdcY_nomaxdt.data'
     log_directory = 'LOGS/mdcX_tdcY_nomaxdt'
-    set_min_D_mix = .true.
-    min_D_mix = 1d2 ! minimal chemical diffusion coefficient in cm^2/s
     time_delta_coeff = Y 
     xa_central_lower_limit_species(1) = 'h1' 
     xa_central_lower_limit(1) = 0.1 
 
-and change
+If you study the effect of changing `time_delta_coeff`, then also add in the same ``&controls`` section
+.. code-block:: console
+
+    set_min_D_mix = .true.
+    min_D_mix = 1d2 ! minimal chemical diffusion coefficient in cm^2/s
+
+For both cases, change
 
 .. code-block:: console
 
