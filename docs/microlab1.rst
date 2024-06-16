@@ -22,6 +22,7 @@ In the ``&controls`` section of ``inlist_1.5M_with_diffusion``, add
     xa_central_lower_limit(1) = 0.1 
 
 If you study the effect of changing `time_delta_coeff`, then also add in the same ``&controls`` section
+
 .. code-block:: console
 
     set_min_D_mix = .true.
