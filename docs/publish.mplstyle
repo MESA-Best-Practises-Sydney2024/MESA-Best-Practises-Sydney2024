@@ -1,0 +1,15 @@
+
+font.size: 6
+legend.fontsize: 6
+legend.frameon: False
+figure.dpi: 300
+xtick.minor.visible: True
+ytick.minor.visible: True
+figure.figsize: 3, 2
+lines.markersize : 2.5
+lines.linewidth : 0.5
+#text.usetex: True
+savefig.dpi: 1200
+axes.titlesize: medium
+axes.labelsize: medium
+#axes.formatter.use_mathtext: True
