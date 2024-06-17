@@ -47,8 +47,9 @@ Start from the code snippet below and complete the missing parts. Save the max r
              
          end do
 
-         max_residuals = ...
-         ! Add code here to store max_residuals in a new history column. 
+         max_residuals = MAXVAL(residuals)
+         names(1) = 'max_residuals'
+         vals(1)  = max_residuals
 
 
       end subroutine data_for_extra_history_columns
