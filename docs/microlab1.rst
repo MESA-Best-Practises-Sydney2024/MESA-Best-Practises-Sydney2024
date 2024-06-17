@@ -10,6 +10,7 @@ In the ``&star_job`` section of ``inlist_1.5M_with_diffusion``, add
     write_profile_when_terminate = .true. 
     filename_for_profile_when_terminate = 'LOGS/mdcX_tdcY_nomaxdt/profile_mdcX_tdcY_nomaxdt_Xc010.data'
 
+where you replace X and Y with the actual values that you are using.
 
 In the ``&controls`` section of ``inlist_1.5M_with_diffusion``, add
 
