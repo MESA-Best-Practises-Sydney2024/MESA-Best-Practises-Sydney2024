@@ -68,7 +68,7 @@ and add
 
     trace_history_value_name(3) = 'max_residuals'
 
-Recompile and run the model. To what precision is hydrostatic equilibrium satisfied? (The trace history files will appear after the ZAMS.)
+If the run for Microlab 1 was slow, increase ``mesh_delta_coeff`` and/or ``time_delta_coeff`` (to 1 for example). Recompile and run the model. To what precision is hydrostatic equilibrium satisfied? (The trace history files will appear after the ZAMS.)
 
 
 
